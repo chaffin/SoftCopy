@@ -1,0 +1,4 @@
+title: $:/~SoftCopy/Footer
+
+<div style="margin-top:1em;border-top:2px solid #808080;border-bottom:1px solid #808080;line-height:2px">&nbsp;</div>
+<div style="text-align:center;font-size:80%">{{$:/~SoftCopy/Logo}}</div>
