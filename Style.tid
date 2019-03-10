@@ -17,14 +17,12 @@ aside {
   width: 33%;
   margin-left:8px;
   float: right;
-  text-align:justify;
   border-left:1px #ccc solid;
   border-radius:15px;
   padding:6px;
-  font-family: calibri, sans-serif;
-  font-size: 90%;
-  line-height: 1em;
-  background-color: #fff;
+  font-family: calibri, serif;
+  font-size:.9em;
+  line-height:110%;
 }
 
 .twocols { 
