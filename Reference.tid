@@ -11,7 +11,8 @@ The ''text'' content is a product of an already produced work found in the publi
 
 <aside>ASIDE The ''text'' content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters.</aside>
 
-```{ 
+```
+{ 
   "json": "this is a json object"
 }
 ```
