@@ -2,6 +2,7 @@ footer: {{$:/~SoftCopy/Footer}}
 header: {{$:/~SoftCopy/Banner}}
 modified: 20190310120012709
 title: $:/~SoftCopy/Copyright
+
 {{!!header}}
 {{$:/~SoftCopy/Logo}} is a modified styled notebook based on ~TiddlyWiki. The copyright holder nor the contributors of ~TiddlyWiki endorse or promote ~SoftCopy as the below copyright notice informs.  
 {{$:/core/copyright.txt}}
