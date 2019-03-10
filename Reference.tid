@@ -1,0 +1,49 @@
+title: $:/~SoftCopy/Reference
+
+! Heading one
+The ''text'' content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters.
+
+!! Heading two
+The ''text'' content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters. 
+
+!!! Heading three
+The ''text'' content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters.
+
+<aside>ASIDE The ''text'' content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters.</aside>
+
+```{ 
+  "json": "this is a json object"
+}
+```
+
+* List item one
+* List item two
+
+# Number item one
+# Number item two
+## Two level
+### Three level
+#### Four level
+#### Four level
+##### Five level
+##### Five level
+#### Four level
+### Three level
+## Two level
+# One level
+# One level
+
+@@.twocols
+Two columns is an example of this content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters. 
+@@
+
+> blockquoted text
+>The ''text'' content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters.
+
+<div class="note">
+<h3 class='note'>Note</h3>
+<p>The ''text'' content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters.</p></div>
+
+<div class='caution'>
+<h3 class='caution'>Caution</h3>
+<p>The ''text'' content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters. </p></div>
