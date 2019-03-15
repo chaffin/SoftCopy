@@ -2,6 +2,10 @@ tags: $:/tags/Stylesheet
 title: $:/~SoftCopy/Style
 type: text/css
 
+div.tc-tab-set  {
+  display: none
+}
+
 blockquote {
   border-left: 3px solid #ccc;
   border-radius: 5px
