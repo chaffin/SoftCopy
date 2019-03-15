@@ -2,131 +2,160 @@ tags: $:/tags/Stylesheet
 title: $:/~SoftCopy/Style
 type: text/css
 
-blockquote { border-left:3px solid #ccc;border-radius:5px}
+blockquote {
+  border-left: 3px solid #ccc;
+  border-radius: 5px
+}
 
-ol {list-style-type:decimal;} 
-ol ol {list-style-type:lower-alpha;}
-ol ol ol {list-style-type:lower-roman;}
-ol ol ol li:before {content:" ) ";margin-left:-.35em}
-ol ol ol ol {list-style-type:decimal;}
-ol ol ol ol ol {list-style-type:lower-alpha;}
+ol {
+  list-style-type: decimal
+}
 
-ol > li {margin:.5em 0}
+ol ol {
+  list-style-type: lower-alpha
+}
+
+ol ol ol {
+  list-style-type: lower-roman
+}
+
+ol ol ol li:before {
+  content: " ) ";
+  margin-left: -.35em
+}
+
+ol ol ol ol {
+  list-style-type: decimal
+}
+
+ol ol ol ol ol {
+  list-style-type: lower-alpha
+}
+
+ol>li {
+  margin: .5em 0
+}
 
 aside {
   width: 33%;
-  margin-left:8px;
+  margin-left: 8px;
   float: right;
-  border-left:1px #ccc solid;
-  border-radius:15px;
-  padding:6px;
-  font-family: calibri, serif;
-  font-size:.9em;
-  line-height:110%;
+  border-left: 1px #ccc solid;
+  border-radius: 15px;
+  padding: 6px
 }
 
-.twocols { 
-font-family:serif;
-column-count:2; 
--moz-column-count:2; 
--webkit-column-count:2; 
-column-count-gap:2em; 
--moz-column-gap:2em; 
--webkit-column-gap:2em; 
-column-count-rule:2px outset #aaa; 
--moz-column-rule:1px solid #aaa; 
--webkit-column-rule:2px outset #aaa; 
+.twocols {
+  font-family: serif;
+  column-count: 2;
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count-gap: 2em;
+  -moz-column-gap: 2em;
+  -webkit-column-gap: 2em;
+  column-count-rule: 2px outset #aaa;
+  -moz-column-rule: 1px solid #aaa;
+  -webkit-column-rule: 2px outset #aaa
 }
-.twocols p, .twocols h3{
-font-size:1em;
-}
+
+.twocols p,
 .twocols h3 {
-padding:.25em;
-color:#333;
-background-color:#eee;
-border:1px solid #aaa;
-border-radius:5px
+  font-size: 1em
 }
 
-/* tables */
+.twocols h3 {
+  padding: .25em;
+  color: #333;
+  background-color: #eee;
+  border: 1px solid #aaa;
+  border-radius: 5px
+}
+
 .rmf-table {
-background-color:#ffe;
-border-collapse: collapse;
-width:100%;
-}
-.rmf-table th {
-background-color:#eee;
-color:#667;
-}
-.rmf-table-col {
-background-color:#f4f4f4
-}
-.rmf-table textarea, .rmf-table input {
-border:0;
-background-color:#ffe;
+  background-color: #ffe;
+  border-collapse: collapse;
+  width: 100%
 }
 
-/* Baseline Tables */
+.rmf-table th {
+  background-color: #eee;
+  color: #667
+}
+
+.rmf-table-col {
+  background-color: #f4f4f4
+}
+
+.rmf-table textarea,
+.rmf-table input {
+  border: 0;
+  background-color: #ffe
+}
+
 .baseline-table {
-font-size:0.8em;
-background-color:#fff;
-border-collapse: collapse;
-width:100%;
+  font-size: .8em;
+  background-color: #fff;
+  border-collapse: collapse;
+  width: 100%
 }
+
 .baseline-table th {
-background-color:#444;
-color:#fff;
+  background-color: #444;
+  color: #fff
 }
-div.note, div.caution {
+
+div.note,
+div.caution {
   margin: 2em 1em;
   border: solid gray 1px;
-  border-radius:15px;
-  background-color: #ffa;
+  border-radius: 15px;
+  background-color: gold;
   padding: .5em
 }
 
 div.caution {
-  background-color: #fee;
+  background-color: #fee
 }
-div.note > h2, 
-div.note > h3, 
-div.note > h4, 
-div.note > h5, 
-div.caution > h2, 
-div.caution > h3, 
-div.caution > h4, 
-div.caution > h5 {
+
+div.note>h2,
+div.note>h3,
+div.note>h4,
+div.note>h5,
+div.caution>h2,
+div.caution>h3,
+div.caution>h4,
+div.caution>h5 {
   font-size: 1em;
   color: #369;
   font-variant: small-caps;
   float: left;
-  padding: .18em .6em .18em .5em;	
+  padding: .18em .6em .18em .5em;
   margin: -1em -0.5em -0.5em auto;
-  width: auto; 
-  border: solid 1px; 
-  border-radius:15px;
-  background: #fff 
+  width: auto;
+  border: solid 1px;
+  border-radius: 15px;
+  background: #fff
 }
 
 pre {
-    font-family: "Courier New", Courier, Monospace;
-    color: #000;
-    background-color: #eee;
-    margin: 0;
-    border: 1px solid #ddd;
-    padding: 9px;
-    overflow: auto;    
-    white-space: pre-wrap;
-    white-space: -moz-pre-wrap !important;
-    white-space: -pre-wrap;
-    white-space: -o-pre-wrap;
-    word-wrap: break-word;
-
+  font-family: "Courier New", Courier, Monospace;
+  color: #000;
+  background-color: #eee;
+  margin: 0;
+  border: 1px solid #ddd;
+  padding: 9px;
+  overflow: auto;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap!important;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word
 }
+
 hr.comment {
-  height:8px;
-  border-radius:3px;
+  height: 8px;
+  border-radius: 3px;
   box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
-  color:rgba(130,190,255,1);
-  background-color:rgba(130,190,255,1)
+  color: rgba(130, 190, 255, 1);
+  background-color: rgba(130, 190, 255, 1)
 }
