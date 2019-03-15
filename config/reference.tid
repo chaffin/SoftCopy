@@ -34,10 +34,15 @@ The ''text'' content is a product of an already produced work found in the publi
 # One level
 # One level
 
+!! twocols
 @@.twocols
 Two columns is an example of this content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters. 
 @@
 
+!! hr.comment
+<hr class="comment">
+
+!! blockquote
 > blockquoted text
 >The ''text'' content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters.
 
@@ -48,3 +53,9 @@ Two columns is an example of this content is a product of an already produced wo
 <div class='caution'>
 <h3 class='caution'>Caution</h3>
 <p>The ''text'' content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters. </p></div>
+
+!! baseline-table
+<table class="baseline-table"><caption>The caption goes here</caption><th>Baseline Table</th><tr><td>This is the baseline table</td></tr></table>
+
+!! rmf-table
+<table class="rmf-table"><caption>The caption goes here</caption><th>The RMF Table</th><tr><td>This is the baseline table</td></tr></table>
