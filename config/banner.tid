@@ -1,4 +1,4 @@
 title: $:/~SoftCopy/Banner
 
-<div style="font-size:80%;text-align:right;margin-top:-99px;margin-bottom:65px">{{$:/~SoftCopy/Logo}}
+<div style="font-size:80%;text-align:right;margin-top:-85px;margin-bottom:65px">{{$:/~SoftCopy/Logo}}
 </div><div style="border-top:1px solid #808080"></div>
