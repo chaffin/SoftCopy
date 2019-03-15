@@ -1,0 +1,11 @@
+title: SoftCopy
+
+{{$:/~SoftCopy/Banner}}
+
+;[[SoftCopy Reference|$:/~SoftCopy/Reference]]
+:View the reference to learn features.
+
+;[[SoftCopy Stylesheet|$:/~SoftCopy/Style]]
+:Make changes to the stylesheet.
+
+{{$:/~SoftCopy/Footer}}
