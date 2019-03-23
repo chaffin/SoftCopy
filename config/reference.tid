@@ -1,4 +1,5 @@
 title: $:/~SoftCopy/Reference
+type: application/x-tiddler
 
 ! Heading one
 The ''text'' content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters.
@@ -9,17 +10,32 @@ The ''text'' content is a product of an already produced work found in the publi
 !!! Heading three
 The ''text'' content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters.
 
+```
+! Heading one
+!! Heading two
+!!! Heading three
+```
+---
 <aside>ASIDE The ''text'' content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters.</aside>
 
+```
+<aside>ASIDE The ''text'' content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters.</aside>
+```
+---
+!! Code
 ```
 { 
   "json": "this is a json object"
 }
 ```
-
+---
 * List item one
 * List item two
-
+```
+* List item one
+* List item two
+```
+---
 # Number item one
 # Number item two
 ## Two level
@@ -33,29 +49,99 @@ The ''text'' content is a product of an already produced work found in the publi
 ## Two level
 # One level
 # One level
-
-!! twocols
+```
+# Number item one
+# Number item two
+## Two level
+### Three level
+#### Four level
+#### Four level
+##### Five level
+##### Five level
+#### Four level
+### Three level
+## Two level
+# One level
+# One level
+```
+---
+!! two columns
 @@.twocols
 Two columns is an example of this content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters. 
 @@
 
-!! hr.comment
-<hr class="comment">
+```
+@@.twocols
+Two columns is an example of this content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters. 
+@@
+```
+---
+!! horizontal rule
+---
+```
+---
+```
 
+!! Softcopy hr
+@@.hr
+---
+@@
+```
+@@.hr
+---
+@@
+```
+---
 !! blockquote
 > blockquoted text
 >The ''text'' content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters.
-
+```
+> blockquoted text
+>The ''text'' content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters.
+```
+---
 <div class="note">
 <h3 class='note'>Note</h3>
 <p>The ''text'' content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters.</p></div>
 
+```
+<div class="note">
+<h3 class='note'>Note</h3>
+<p>The ''text'' content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters.</p></div>
+```
+---
 <div class='caution'>
 <h3 class='caution'>Caution</h3>
 <p>The ''text'' content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters. </p></div>
 
+```
+<div class='caution'>
+<h3 class='caution'>Caution</h3>
+<p>The ''text'' content is a product of an already produced work found in the public domain, which is pasted into tiddlers to form pages and chapters. </p></div>
+```
+---
 !! baseline-table
-<table class="baseline-table"><caption>The caption goes here</caption><th>Baseline Table</th><tr><td>This is the baseline table</td></tr></table>
+|baseline-table |k
+|The caption goes here |c
+|! Baseline Table |
+|This is the baseline table. Reference the ~TiddlyWiki site to learn about table properties|
 
+```
+!! baseline-table
+|baseline-table |k
+|The caption goes here |c
+|! Baseline Table |
+|This is the baseline table. Reference the ~TiddlyWiki site to learn about table properties|
+
+```
+---
+!! rmf-table
+|rmf-table|k
+|The caption goes here|c
+| The RMF Table |h
+|This is the rmf table|
+
+```
 !! rmf-table
 <table class="rmf-table"><caption>The caption goes here</caption><th>The RMF Table</th><tr><td>This is the baseline table</td></tr></table>
+```
