@@ -1,7 +1,18 @@
 title: SoftCopy
+type: application/x-tiddler
 
 {{$:/~SoftCopy/Banner}}
 
+!! Personalization
+''Site name:'' <$edit-text tiddler="$:/SiteTitle" default="" tag="input"/>
+
+''Site Sub Title:'' <$edit-text tiddler="$:/SiteSubtitle" default="" tag="input"/>
+
+@@.hr
+---
+@@
+
+!! References
 ;[[SoftCopy Reference|$:/~SoftCopy/Reference]]
 :View the reference to learn features.
 
